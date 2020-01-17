@@ -20,7 +20,6 @@ public class WordControllerTests {
 	@Autowired
 	MockMvc mockMvc;
 
-
 	@Test
 	public void words() throws Exception {
 		mockMvc.perform(

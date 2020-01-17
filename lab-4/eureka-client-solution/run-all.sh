@@ -1,6 +1,6 @@
-mvn spring-boot:run -Dspring-boot.run.profiles=subject &
-mvn spring-boot:run -Dspring-boot.run.profiles=verb &
-mvn spring-boot:run -Dspring-boot.run.profiles=article &
-mvn spring-boot:run -Dspring-boot.run.profiles=adjective &
-mvn spring-boot:run -Dspring-boot.run.profiles=noun &
-mvn spring-boot:run -Dspring-boot.run.profiles=sentence
+java -jar -Dspring.profiles.active=subject target/lab-4-eureka-client-solution-0.0.1-SNAPSHOT.jar &
+java -jar -Dspring.profiles.active=verb target/lab-4-eureka-client-solution-0.0.1-SNAPSHOT.jar &
+java -jar -Dspring.profiles.active=article target/lab-4-eureka-client-solution-0.0.1-SNAPSHOT.jar &
+java -jar -Dspring.profiles.active=adjective target/lab-4-eureka-client-solution-0.0.1-SNAPSHOT.jar &
+java -jar -Dspring.profiles.active=noun target/lab-4-eureka-client-solution-0.0.1-SNAPSHOT.jar &
+java -jar -Dspring.profiles.active=sentence target/lab-4-eureka-client-solution-0.0.1-SNAPSHOT.jar
